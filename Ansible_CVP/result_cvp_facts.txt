@@ -1,0 +1,254 @@
+TASK [print register] *****************************************************************************************************************************************************************************************************************************************************************************
+ok: [cvp1] => {
+    "msg": {
+        "changed": false,
+        "data": {
+            "cvp_configlets": [],
+            "cvp_containers": [],
+            "cvp_devices": [],
+            "cvp_images": [],
+            "cvp_tasks": {
+                "100": {
+                    "ccId": "",
+                    "ccIdV2": "",
+                    "createdBy": "arista",
+                    "description": "Configlet Assign: host4.arista.lab Current IP: 192.168.0.54 Target IP: automatic",
+                    "workOrderDetails": {
+                        "ipAddress": "192.168.0.54",
+                        "netElementHostName": "host4.arista.lab",
+                        "netElementId": "00:1c:73:f4:c6:01",
+                        "serialNumber": "host4",
+                        "workOrderDetailsId": "",
+                        "workOrderId": ""
+                    },
+                    "workOrderId": "100",
+                    "workOrderState": "ACTIVE",
+                    "workOrderUserDefinedStatus": "Pending"
+                },
+                "101": {
+                    "ccId": "",
+                    "ccIdV2": "",
+                    "createdBy": "arista",
+                    "description": "Configlet Assign: leaf2.arista.lab Current IP: 192.168.0.22 Target IP: automatic",
+                    "workOrderDetails": {
+                        "ipAddress": "192.168.0.22",
+                        "netElementHostName": "leaf2.arista.lab",
+                        "netElementId": "00:1c:73:c2:c6:01",
+                        "serialNumber": "leaf2",
+                        "workOrderDetailsId": "",
+                        "workOrderId": ""
+                    },
+                    "workOrderId": "101",
+                    "workOrderState": "ACTIVE",
+                    "workOrderUserDefinedStatus": "Pending"
+                },
+                "102": {
+                    "ccId": "",
+                    "ccIdV2": "",
+                    "createdBy": "arista",
+                    "description": "Configlet Assign: spine4.arista.lab Current IP: 192.168.0.14 Target IP: automatic",
+                    "workOrderDetails": {
+                        "ipAddress": "192.168.0.14",
+                        "netElementHostName": "spine4.arista.lab",
+                        "netElementId": "00:1c:73:b4:c6:01",
+                        "serialNumber": "spine4",
+                        "workOrderDetailsId": "",
+                        "workOrderId": ""
+                    },
+                    "workOrderId": "102",
+                    "workOrderState": "ACTIVE",
+                    "workOrderUserDefinedStatus": "Pending"
+                },
+                "103": {
+                    "ccId": "",
+                    "ccIdV2": "",
+                    "createdBy": "arista",
+                    "description": "Configlet Assign: leaf1.arista.lab Current IP: 192.168.0.21 Target IP: automatic",
+                    "workOrderDetails": {
+                        "ipAddress": "192.168.0.21",
+                        "netElementHostName": "leaf1.arista.lab",
+                        "netElementId": "00:1c:73:c1:c6:01",
+                        "serialNumber": "leaf1",
+                        "workOrderDetailsId": "",
+                        "workOrderId": ""
+                    },
+                    "workOrderId": "103",
+                    "workOrderState": "ACTIVE",
+                    "workOrderUserDefinedStatus": "Pending"
+                },
+                "104": {
+                    "ccId": "",
+                    "ccIdV2": "",
+                    "createdBy": "arista",
+                    "description": "Configlet Assign: spine2.arista.lab Current IP: 192.168.0.12 Target IP: automatic",
+                    "workOrderDetails": {
+                        "ipAddress": "192.168.0.12",
+                        "netElementHostName": "spine2.arista.lab",
+                        "netElementId": "00:1c:73:b2:c6:01",
+                        "serialNumber": "spine2",
+                        "workOrderDetailsId": "",
+                        "workOrderId": ""
+                    },
+                    "workOrderId": "104",
+                    "workOrderState": "ACTIVE",
+                    "workOrderUserDefinedStatus": "Pending"
+                },
+                "105": {
+                    "ccId": "",
+                    "ccIdV2": "",
+                    "createdBy": "arista",
+                    "description": "Configlet Assign: leaf3.arista.lab Current IP: 192.168.0.23 Target IP: automatic",
+                    "workOrderDetails": {
+                        "ipAddress": "192.168.0.23",
+                        "netElementHostName": "leaf3.arista.lab",
+                        "netElementId": "00:1c:73:c3:c6:01",
+                        "serialNumber": "leaf3",
+                        "workOrderDetailsId": "",
+                        "workOrderId": ""
+                    },
+                    "workOrderId": "105",
+                    "workOrderState": "ACTIVE",
+                    "workOrderUserDefinedStatus": "Pending"
+                },
+                "106": {
+                    "ccId": "",
+                    "ccIdV2": "",
+                    "createdBy": "arista",
+                    "description": "Configlet Assign: leaf4.arista.lab Current IP: 192.168.0.24 Target IP: automatic",
+                    "workOrderDetails": {
+                        "ipAddress": "192.168.0.24",
+                        "netElementHostName": "leaf4.arista.lab",
+                        "netElementId": "00:1c:73:c4:c6:01",
+                        "serialNumber": "leaf4",
+                        "workOrderDetailsId": "",
+                        "workOrderId": ""
+                    },
+                    "workOrderId": "106",
+                    "workOrderState": "ACTIVE",
+                    "workOrderUserDefinedStatus": "Pending"
+                },
+                "107": {
+                    "ccId": "",
+                    "ccIdV2": "",
+                    "createdBy": "arista",
+                    "description": "Configlet Assign: spine3.arista.lab Current IP: 192.168.0.13 Target IP: automatic",
+                    "workOrderDetails": {
+                        "ipAddress": "192.168.0.13",
+                        "netElementHostName": "spine3.arista.lab",
+                        "netElementId": "00:1c:73:b3:c6:01",
+                        "serialNumber": "spine3",
+                        "workOrderDetailsId": "",
+                        "workOrderId": ""
+                    },
+                    "workOrderId": "107",
+                    "workOrderState": "ACTIVE",
+                    "workOrderUserDefinedStatus": "Pending"
+                },
+                "108": {
+                    "ccId": "",
+                    "ccIdV2": "",
+                    "createdBy": "arista",
+                    "description": "Configlet Assign: host3.arista.lab Current IP: 192.168.0.53 Target IP: automatic",
+                    "workOrderDetails": {
+                        "ipAddress": "192.168.0.53",
+                        "netElementHostName": "host3.arista.lab",
+                        "netElementId": "00:1c:73:f3:c6:01",
+                        "serialNumber": "host3",
+                        "workOrderDetailsId": "",
+                        "workOrderId": ""
+                    },
+                    "workOrderId": "108",
+                    "workOrderState": "ACTIVE",
+                    "workOrderUserDefinedStatus": "Pending"
+                },
+                "109": {
+                    "ccId": "",
+                    "ccIdV2": "",
+                    "createdBy": "arista",
+                    "description": "Configlet Assign: borderleaf2.arista.lab Current IP: 192.168.0.26 Target IP: automatic",
+                    "workOrderDetails": {
+                        "ipAddress": "192.168.0.26",
+                        "netElementHostName": "borderleaf2.arista.lab",
+                        "netElementId": "00:1c:73:c6:c6:01",
+                        "serialNumber": "borderleaf2",
+                        "workOrderDetailsId": "",
+                        "workOrderId": ""
+                    },
+                    "workOrderId": "109",
+                    "workOrderState": "ACTIVE",
+                    "workOrderUserDefinedStatus": "Pending"
+                },
+                "96": {
+                    "ccId": "",
+                    "ccIdV2": "",
+                    "createdBy": "arista",
+                    "description": "Configlet Assign: host1.arista.lab Current IP: 192.168.0.51 Target IP: automatic",
+                    "workOrderDetails": {
+                        "ipAddress": "192.168.0.51",
+                        "netElementHostName": "host1.arista.lab",
+                        "netElementId": "00:1c:73:f1:c6:01",
+                        "serialNumber": "host1",
+                        "workOrderDetailsId": "",
+                        "workOrderId": ""
+                    },
+                    "workOrderId": "96",
+                    "workOrderState": "ACTIVE",
+                    "workOrderUserDefinedStatus": "Pending"
+                },
+                "97": {
+                    "ccId": "",
+                    "ccIdV2": "",
+                    "createdBy": "arista",
+                    "description": "Configlet Assign: spine1.arista.lab Current IP: 192.168.0.11 Target IP: automatic",
+                    "workOrderDetails": {
+                        "ipAddress": "192.168.0.11",
+                        "netElementHostName": "spine1.arista.lab",
+                        "netElementId": "00:1c:73:b1:c6:01",
+                        "serialNumber": "spine1",
+                        "workOrderDetailsId": "",
+                        "workOrderId": ""
+                    },
+                    "workOrderId": "97",
+                    "workOrderState": "ACTIVE",
+                    "workOrderUserDefinedStatus": "Pending"
+                },
+                "98": {
+                    "ccId": "",
+                    "ccIdV2": "",
+                    "createdBy": "arista",
+                    "description": "Configlet Assign: host2.arista.lab Current IP: 192.168.0.52 Target IP: automatic",
+                    "workOrderDetails": {
+                        "ipAddress": "192.168.0.52",
+                        "netElementHostName": "host2.arista.lab",
+                        "netElementId": "00:1c:73:f2:c6:01",
+                        "serialNumber": "host2",
+                        "workOrderDetailsId": "",
+                        "workOrderId": ""
+                    },
+                    "workOrderId": "98",
+                    "workOrderState": "ACTIVE",
+                    "workOrderUserDefinedStatus": "Pending"
+                },
+                "99": {
+                    "ccId": "",
+                    "ccIdV2": "",
+                    "createdBy": "arista",
+                    "description": "Configlet Assign: borderleaf1.arista.lab Current IP: 192.168.0.25 Target IP: automatic",
+                    "workOrderDetails": {
+                        "ipAddress": "192.168.0.25",
+                        "netElementHostName": "borderleaf1.arista.lab",
+                        "netElementId": "00:1c:73:c5:c6:01",
+                        "serialNumber": "borderleaf1",
+                        "workOrderDetailsId": "",
+                        "workOrderId": ""
+                    },
+                    "workOrderId": "99",
+                    "workOrderState": "ACTIVE",
+                    "workOrderUserDefinedStatus": "Pending"
+                },
+                "total_tasks": 14
+            }
+        },
+        "failed": false
+    }
+}
